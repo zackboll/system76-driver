@@ -60,7 +60,6 @@ NEEDS_AIRPLANE = frozenset([
     'bonw10',
     'bonw11',
     'bonw12',
-    'bonw13',
     'daru4',
     'galu1',
     'galp2',
