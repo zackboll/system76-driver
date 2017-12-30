@@ -58,6 +58,7 @@ def read_dmi_id(key, sysdir='/sys'):
 
 def get_sys_vendor(sysdir='/sys'):
     sys_vendor = read_dmi_id('sys_vendor', sysdir)
+    print ("sys_vendor: %s" % sys_vendor)
     if sys_vendor in VALID_SYS_VENDOR:
         return sys_vendor
     log.warning('invalid sys_vendor: %r', sys_vendor)
